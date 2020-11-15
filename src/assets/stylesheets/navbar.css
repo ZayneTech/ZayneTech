@@ -1,0 +1,16 @@
+.navbar {
+    height: 12vh;
+    width: 100vw;
+    background: #404040;
+    position: relative;
+    top: 0;
+}
+
+.navbar img {
+    position: absolute;
+    left: 5vw;
+    top: -13.5vh;
+    height: auto;
+    width: 25vw;
+    z-index: 10;
+}
