@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ZayneTech/static/css/main.90e81f30.chunk.css",
+    "main.js": "/ZayneTech/static/js/main.f7dcc53f.chunk.js",
+    "main.js.map": "/ZayneTech/static/js/main.f7dcc53f.chunk.js.map",
+    "runtime-main.js": "/ZayneTech/static/js/runtime-main.efe8359e.js",
+    "runtime-main.js.map": "/ZayneTech/static/js/runtime-main.efe8359e.js.map",
+    "static/js/2.9abbe988.chunk.js": "/ZayneTech/static/js/2.9abbe988.chunk.js",
+    "static/js/2.9abbe988.chunk.js.map": "/ZayneTech/static/js/2.9abbe988.chunk.js.map",
+    "static/js/3.ff131266.chunk.js": "/ZayneTech/static/js/3.ff131266.chunk.js",
+    "static/js/3.ff131266.chunk.js.map": "/ZayneTech/static/js/3.ff131266.chunk.js.map",
+    "index.html": "/ZayneTech/index.html",
+    "static/css/main.90e81f30.chunk.css.map": "/ZayneTech/static/css/main.90e81f30.chunk.css.map",
+    "static/js/2.9abbe988.chunk.js.LICENSE.txt": "/ZayneTech/static/js/2.9abbe988.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ZayneTech/static/media/Wave.953b928e.svg",
+    "static/media/ZayneTech Dark Logo.0a3b9369.svg": "/ZayneTech/static/media/ZayneTech Dark Logo.0a3b9369.svg",
+    "static/media/ZayneTech Logo.0a3f9678.svg": "/ZayneTech/static/media/ZayneTech Logo.0a3f9678.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.efe8359e.js",
+    "static/js/2.9abbe988.chunk.js",
+    "static/css/main.90e81f30.chunk.css",
+    "static/js/main.f7dcc53f.chunk.js"
+  ]
+}

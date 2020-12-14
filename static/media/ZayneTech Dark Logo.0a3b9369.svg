@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="316" height="73" viewBox="0 0 316 73">
+  <defs>
+    <pattern id="pattern" width="1" height="1" viewBox="-1.481 103.029 318.961 73.684">
+      <image preserveAspectRatio="xMidYMid slice" width="316" height="316" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABLAAAASwAgMAAACWT1tcAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURUdwTFhfbFhfbFlgbRzRAecAAAADdFJOUwBPqSKdjFgAAAsLSURBVHja7N07biPJAQZgPjAiYAbMJtiFwQM44BHII2ywDoxNHHsB7xGoI0wwB3CwDowN5ggt30DwCWh4N1g4kWEB1oxHbJP9rOpuSS2DYzc135esyKUo1t/VVdVV1ZzRCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBPZfwbGfR1kdwLoW9WaSqsvudgIqzevkuF1VsqrP5nobD6mwhLWIYOg2i1hPUCwpqlgcvTNz+1j+cf1jwsz9VJ33oah3UvrM8qrIWw/suwroX1f6xZP2XN/KFpf5W8jLD2m6rv2pw4rP2oDOvQ6+7PP6xlee4dxhD70771LL2twxq9hJq1TOvz8f7UYe2CsLYvoWaVH2yVpnenDusqCGv1EmpWmdA2TW9O+9bT7IqgDGv5AmrWqkzo5COHQ80aBWEtXkLN2tUXcpenrllhWPMXENaq7gzTE7/1dB+GNXsJYV1V14j3wuoZ1vLkneFoeh+GNX0Jsw5FQ7VOsyHkKU3isF7AfFYpOXlnOBp9HYY1/urFhDU++WV0Vb/6z5GeS1jTxmX0q3fpn/oU7N3+bfzMF+mHN0+FdZHsv4+f+V364W0jrG/TPw41rHl8GX3cnZEWI7Bjc5bmWW6DeanxD9f5xoRoquLi8MT+8vGwsjf/Q/jM8W3SN1FYX6afoF042fV0VKTV8dPvHwvrVXIoS7bacdto+tL0/eNh5W++CYf64TNZWFmggx1BRIW+iOYC19XSTx3WOOsQokzrYkeXAq2wxvlrdvUz2/yZH4Ow5p9gtemUneGuceyrC+tVlcC6WtI6nji7cSuauNjdYS3z17xvJlyd38ef1s1AhyTqDMfxSt+r4ynx/tjzj48ZfV/0B+lu2qwj447p9lZYRaB1W7fqCCt/5m6QWcVzyuXy2D54fFVWgh+ryrBbNIt0eOGHzTdxo98M6/B4/+Z12Hwnx2r2TfWyY1jT+AMMSzynXB7qdNMahBU/ZGHdrJv1aHXs047N2dXDYc2zvL+rZ8+medu+DcOaN2vfkMRzyklzOb8e3if5588Kc5Okb46n6D44me/zyHYPh7XOIpjXFXKR9y3zMKxV+mN2yg+yhY/nlLfph6+yz3pVF3BXhpUX6NeH0+Yfx0Iug+M/yavLPOpZm2El2cNJfXTWaTH9HIS1vc9r7yBHWvGc8up90Yxd11kW/7uqRoei/PN44MNJw3le7GkUTyOsItBRPX2WFD8lQVjZsUkG2h3GB/EXm8ZoYlHWlXFV8ENY/943+tFVXsnii7tGWPPiL23LClnVsfVdFdY+y38dHcFBdYaXHafmri7hXfHCu2BwdFeU+qqqn/si+v2DYS2Lv7Qu/+KsPBDLOqz895fDDKtzTjn4rLOywNOqNZqVA6x1XSmT4lVJ+G6T1oVU+d+r8kDkx2QRhHUX1efBXUbfd/WQQe9+X0S0C8K6iivguKx/27DPb4RV1r5lmXH1w/y2Dusmqs+Du4y+60rwth6Z74vnroOwNsXv7qpIb8qwLh8Kq3xU/dq6GvAGYV0Xf2KIYXU2pbPgLChP02XVPlXD2EUV1iwo/0NhVbWv+rWqGoZhXRbhDzGszjnlMKykKNGqSmFWnpl1WPMeYU1aYVUN3OymDmsz3LDGnWPlMKxt1YeNmm1+HdaijHwdXu/EYU3LN61axKrrHP+2/jSj4YY17bwKC8Mq+656K8wsKPUumntpbIuLwwo3R99EzWF46O4HHNa88/o+DKtsjut7TDvCWvUIa94Ma9LqiAce1rJzASYMq0yk/vSnCmt6bmF1L7CGYRXDiEn9TEdY6yCIh8ZZi+Z232l7PWPYYXVesV4kaSuaaT3C6AhrW+fw4OXOsnk/x+zcwupaYH0dLdxUu2ivHw/rsvO6Mw5r16y/d+cUVtc+5W/SKKyiAPM61FOFNT+zsDr2KX+ZxmEVc6CLOo2OsJIeYa3OPaz2PuVs3fDvYVj5OHuVjj73sNr7lI9Tyj+HvWExc77ef/ZhtfYpT7I10CisVb4iff9EWFc9wro567BaCwPLbHEqCiuf4Ew+jh5v4J8Ma3nmYbXnlLfZ0l4UVn6RHDxxwpp1TuOs1pxyMQkRhZVNv4yDgnbXrOseNeu2+dfPKazWnHJxuRaFlc2CToPG+TMNqzWnXDQjUViT44NZcJp1Xxvungpr0fxjs/O6kG7NKRfzclFY2XTwPGjbThXWmc06tOaUi7FQFFa20LAIroq6p2hungqr1Z5Pz2ryr71PeZWnF4d1vG03vLGrO6zbHmHdt/ri8wkrmFPOl+3LKfQ4rPWhAqzvHw2r+yaN1rTyvnWsNmcTVjCnvLgOB5dxWMeV5O3HR8Pqvhe2tWDRyKY1yhtyWMGc8mNhHV62Se4eDat7Kr+1FNbIptVkDjmsYE55+UhYh0wuw/a7I6zuRaLWinQjm22zDx1yWMGc8uo6HFzGYR0e/TksVUdYk87dZ42wkmYv0OoWhhxWuMHvkbAOn/wvYRQdYY3q3eC/fDCsdfVwtmk2A4MPK5xTTq7DUWprt+PfwtamK6xtWczxo/uzir+3vSxbuvRcwgr78qLmFJOB6+izHorwr7BF6gprVe+s2TwU1rzeI3NdtXR51f794MMK+vtpvWNqn1e5+/h0TeNC35av3tXvlT15EfaKjYXBafG246Sop+Nyrv+iuW9yeFuOgjnlcj/Rscz5zup083XYa93HId+GF0flZE/69riKdvfgBU52E8ZPx7s29vUbH/fBj4td4/XV4vA2s9VzyhdJvXGx47vn1q3tjtU2v9swiOZ3Sy3jO8DqpdjboBV7v3n1rjwWi7TeHDiw+8LS9ldCFfeC/Lt190RwnF/llahYCHpbB9pcvc/+f3bjT3CuRoHOor0P+c1zP4U/DDqsooL8Na5Z0bTdJCmKV/0Q1cn6jq8vkmZVK782sapu4/h+jndljX73rK9V/N+HdRmeKZdBCqNgX19QG27qH6Jy78KTt3lebpu3R63CW4DG5ek/Ts8jrGW+t2MbTd7MwhLPu8Mqyh20UR1hFb/7ppn8dVjxhhlW0hHWJL/Bcpk2hgBXzQLvyoLuwhYqvDezI6xx69bg8NbrSVnvxgO85XCbduyqyu8TnzSH8Jsnw8qq1vtRO6yrxrg06iAvgpo26LC6Z09/yDq4X4VFGvf7Yp9v0583T73mi/TDV9ETr5PmNx6cu2Q/ovcJ+1EG/cO6k0H/0/BWBv1HZDcy6D9LeC2Evqaf6CujXqTZUL8ZZogWqQx6WxmT9rf277s8Y5hlTPqMkYMx6TM6Q2PS/u27MWlvr1Nj0p7Gg/3ir6GGJYa+XaF/Ru9ZYRlmPSMsI4dntFlGDs8IS2fYPyzte2+pK8P+EtOk/W2/lwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/Kc9OCQAAAAAEPT/tSOsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAEtQvbYiHOAHYAAAAAElFTkSuQmCC"/>
+    </pattern>
+  </defs>
+  <g id="ZayneTech_Dark_Logo" data-name="ZayneTech Dark Logo" transform="translate(-140 -32)">
+    <g id="ZayneTech_Logo_Dark_Green" data-name="ZayneTech Logo Dark/Green" transform="translate(4 -2)">
+      <g id="Group_22" data-name="Group 22" transform="translate(-1413.01 -125.691)">
+        <g id="Path_15" data-name="Path 15" transform="translate(1602.49 202.41) rotate(-90)">
+          <path id="Path_26" data-name="Path 26" d="M10.246,9.065H0L2.99,0H7.235Z" transform="translate(0.141 0.102)" fill="#495464"/>
+          <path id="Path_27" data-name="Path 27" d="M3.205.2.283,9.065h9.963L7.3.2h-4.1M3.058,0H7.451l3.078,9.27H0Z" transform="translate(0 0)" fill="#495464"/>
+        </g>
+        <g id="Path_16" data-name="Path 16" transform="matrix(0.766, 0.643, -0.643, 0.766, 1601.437, 177.724)">
+          <path id="Path_28" data-name="Path 28" d="M7.235,9.065H2.99L0,0H10.246Z" transform="translate(0.141 0.102)" fill="#495464"/>
+          <path id="Path_29" data-name="Path 29" d="M7.3,9.065,10.246.2H.283L3.205,9.065H7.3m.148.2H3.058L0,0H10.529Z" transform="translate(0 0)" fill="#495464"/>
+        </g>
+        <g id="Path_17" data-name="Path 17" transform="translate(1597.443 182.361) rotate(180)">
+          <path id="Path_30" data-name="Path 30" d="M10.246,9.065H0L2.99,0H7.235l1.43,4.307Z" transform="translate(0.141 0.102)" fill="#79c99e"/>
+          <path id="Path_31" data-name="Path 31" d="M3.205.2.283,9.065h9.963L8.71,4.441,7.3.2h-4.1M3.058,0H7.451L8.9,4.377,10.529,9.27H0Z" transform="translate(0 0)" fill="#79c99e"/>
+        </g>
+        <g id="Path_18" data-name="Path 18" transform="translate(1581.88 191.881) rotate(90)">
+          <path id="Path_32" data-name="Path 32" d="M10.246,9.065H0L2.99,0H7.235Z" transform="translate(0.141 0.102)" fill="#495464"/>
+          <path id="Path_33" data-name="Path 33" d="M3.205.2.283,9.065h9.963L7.3.2h-4.1M3.058,0H7.451l3.078,9.27H0Z" transform="translate(0 0)" fill="#495464"/>
+        </g>
+        <g id="Path_19" data-name="Path 19" transform="matrix(-0.766, 0.643, -0.643, -0.766, 1588.892, 184.825)">
+          <path id="Path_34" data-name="Path 34" d="M10.246,9.065H0L2.99,0H7.235Z" transform="translate(0.141 0.102)" fill="#495464"/>
+          <path id="Path_35" data-name="Path 35" d="M3.205.2.283,9.065h9.963L7.3.2h-4.1M3.058,0H7.451l3.078,9.27H0Z" transform="translate(0 0)" fill="#495464"/>
+        </g>
+        <g id="Path_20" data-name="Path 20" transform="matrix(0.766, -0.643, 0.643, 0.766, 1595.478, 208.304)">
+          <path id="Path_36" data-name="Path 36" d="M10.246,9.065H0L2.99,0H7.235Z" transform="translate(0.141 0.102)" fill="#495464"/>
+          <path id="Path_37" data-name="Path 37" d="M3.205.2.283,9.065h9.963L7.3.2h-4.1M3.058,0H7.451l3.078,9.27H0Z" transform="translate(0 0)" fill="#495464"/>
+        </g>
+        <g id="Path_21" data-name="Path 21" transform="matrix(0.766, 0.643, -0.643, 0.766, 1580.827, 201.536)">
+          <path id="Path_38" data-name="Path 38" d="M10.246,9.065H0L2.99,0H7.235Z" transform="translate(0.141 0.102)" fill="#495464"/>
+          <path id="Path_39" data-name="Path 39" d="M3.205.2.283,9.065h9.963L7.3.2h-4.1M3.058,0H7.451l3.078,9.27H0Z" transform="translate(0 0)" fill="#495464"/>
+        </g>
+      </g>
+    </g>
+    <path id="Subtraction_4" data-name="Subtraction 4" d="M8456,6377H8140v-73h316v73Z" transform="translate(-8000 -6272)" fill="url(#pattern)"/>
+  </g>
+</svg>
