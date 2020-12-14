@@ -46,7 +46,7 @@ const Navbar = (props) => {
         return (
             <nav className="navbar active" id="navbar">
 
-                <Icon fill={IconColor}/>
+                <Icon fill={IconColor} id="logo"/>
 
                 <div id="nav-links2">
                     <a href=""> Services</a>

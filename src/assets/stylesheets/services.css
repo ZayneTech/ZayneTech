@@ -1,0 +1,27 @@
+#infobox {
+    position: absolute;
+    top: 87.5vh;
+    left: 25vw;
+    height: 150px;
+    width: 50vw;
+    background-color: #3D4B5E;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 25%);
+    z-index: 3;
+}
+
+.info-box-message {
+    position: relative;
+    top: 20px;
+}
+
+#infobox p {
+    font-size: 22px;
+    color: white;
+    position: relative;
+    bottom: 15px;
+}

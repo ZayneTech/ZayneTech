@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.861" height="63.982" viewBox="0 0 60.861 63.982">
+  <defs>
+    <filter id="mail-envelope-open" x="0" y="0" width="60.861" height="63.982" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Open_Mail" data-name="Open Mail" transform="translate(15 10.332)" opacity="0">
+    <g id="icon-5-mail-envelope-open">
+      <g transform="matrix(1, 0, 0, 1, -15, -10.33)" filter="url(#mail-envelope-open)">
+        <path id="mail-envelope-open-2" data-name="mail-envelope-open" d="M21.874,29.482l-2.366.012h4.711l.028-.025h-.138l9.175-8.2V9.984a1.407,1.407,0,0,0-1.394-1.406H10.972a1.392,1.392,0,0,0-1.394,1.4V21.407l9.135,8.06,3.161.015Zm-5.2-22.3L21.43,3l4.754,4.183h5.708a2.784,2.784,0,0,1,2.785,2.788v4.686l4.183,3.681v19.53a2.789,2.789,0,0,1-2.794,2.781H6.794A2.781,2.781,0,0,1,4,37.869V18.339l4.183-3.681V9.972a2.78,2.78,0,0,1,2.785-2.788Zm7.442,0L21.43,4.813,18.742,7.183Zm10.559,9.311,2.092,1.844L34.678,20.2v-3.7ZM8.183,20.2,6.092,18.339l2.092-1.844v3.7Zm9.064,10.691L7.486,39.255H35.375l-9.761-8.367Zm19.78,7.983L26.311,29.518l11.155-9.785V37.861a1.392,1.392,0,0,1-.439,1.011Zm-31.194,0L16.55,29.518,5.394,19.733V37.861a1.392,1.392,0,0,0,.439,1.011Z" transform="translate(11 7.33)" fill="#fff" stroke="#fff" stroke-width="2" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

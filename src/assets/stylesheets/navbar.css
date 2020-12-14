@@ -42,9 +42,10 @@
 
 .active {
     background-color: rgba( 255, 255, 255, 1);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 25%);
 }
 
-#logo {
+.active #logo {
     display: flex;
     align-items: center;
     position: relative;

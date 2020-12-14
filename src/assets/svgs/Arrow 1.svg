@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.241" height="27.335" viewBox="0 0 16.241 27.335">
+  <g id="Arrow_1" data-name="Arrow 1" transform="translate(-347.878 -242.879)">
+    <rect id="Arrow_Bottom" data-name="Arrow Bottom" width="16.316" height="0.653" transform="translate(361.537 268.093) rotate(-135)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <rect id="Arrow_Top" data-name="Arrow Top" width="16.316" height="0.653" transform="translate(361.998 245.461) rotate(135)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>
