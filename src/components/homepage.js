@@ -5,6 +5,8 @@ import mail from '../assets/svgs/Closed Mail.svg';
 import instagram from '../assets/svgs/instagram.svg';
 import linkdin from '../assets/svgs/linkdin.svg';
 import ValuesSection from './corevalues';
+import Services from './services';
+import HomeProjectSection from './projects';
 
 const Homepage = () => {
 
@@ -39,8 +41,13 @@ const Homepage = () => {
                 <section id="homepage-wave"></section>
 
                 <InfoBox />
-
+    
                 <ValuesSection />
+
+                <Services />
+
+                <HomeProjectSection />
+                
         </main>
     )
 }
