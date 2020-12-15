@@ -1,0 +1,75 @@
+footer {
+    width: 100vw;
+    height: 550px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#footer-logo  {
+    position: absolute;
+    left: 6vw;
+    top: -5vw;
+    width: 28vw;
+}
+
+#footer-links {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+    top: 10vh;
+}
+
+#footer-headers div {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-links h3 {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 4vh;
+}
+
+#footer-links p {
+    font-size: 16px;
+    margin: 1.5vh 0 1.5vh 0;
+}
+
+#spacer-div {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+#spacer {
+    width: 50vw;
+    height: 1px;
+    border-top: 1.5px solid #2E3847;
+}
+
+#company-footer {
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+#footer-contacts {
+    width: 25vw;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+#mail {
+    color: black;
+}
+
+

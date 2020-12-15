@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  min-height: 100vh;
+  min-height: calc(100vh) - 15vh ;
   position: relative;
 }
 

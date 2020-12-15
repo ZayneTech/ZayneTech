@@ -1,7 +1,90 @@
 #homepage-project-section {
     width: 100vw;
-    height: 100vh;
+    height: 87.5vh;
     background-color: #2E3847;
     position: relative;
     top: -15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: -1;
+}
+
+#project-section-left {
+    width: 50vw;
+    height: 100%;
+}
+
+#project-section-right {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-section-box {
+    width: 368px;
+    height: 246px;
+    background-color: white;
+}
+
+
+#project-section-header, #project-section-subheader {
+    position: relative;
+    left: 10vw;
+    top: 10vh;
+    font-size: 36px;
+    font-weight: 500;
+    z-index: 1;
+}
+
+#project-section-header span {
+    color: white;
+}
+
+#project-section-subheader {
+    font-size: 18px;
+}
+
+#homepage-project-section button {
+    background-color: #79C99E;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    position: relative;
+    z-index: 1;
+}
+
+#projects-link-button {
+    width: 14.2vw;
+    height: 6.5vh;
+    font-size: 20px;
+    top: 15vh;
+    left: 33vw;
+}
+
+#contact-link-div {
+    font-size: 26px;
+    position: relative;
+    top: 25vh;
+    left: 29vw;
+    color: white;
+}
+
+#contact-link-button {
+    width: 10vw;
+    height: 4.5vh;
+    font-size: 16px;
+    left: 4vw;
+}
+
+#homepage-project-section img {
+    width: 50vw;
+    height: 105vh;
+    position: absolute;
+    left: -9.5vw;
+    bottom: -4vh;
+    z-index: 0;
 }
