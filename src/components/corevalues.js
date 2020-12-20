@@ -6,30 +6,31 @@ import wave from '../assets/svgs/Wave 2.svg'
 import greenarrow from '../assets/svgs/green arrow.svg';
 
 
+
 const ValuesSection = () => {
 
-    return (
-        <section id="core-values-section">
-            <h1>Our core values</h1> <br />
-            <h2>enable quality Websites</h2>
+        return (
+            <section id="core-values-section">
+                <h1>Our core values</h1> <br />
+                <h2>enable quality Websites</h2>
 
-            <div id="core-values-about-text">
-                <h3>About Us</h3> 
-                <img src={greenarrow} />
-            </div>
+                <div id="core-values-about-text">
+                    <h3>About Us</h3> 
+                    <img src={greenarrow} />
+                </div>
 
-            <Icon fill="#79C99E"/>
+                <Icon fill="#79C99E"/>
 
-            <img src={wave} id="core-values-wave"/> 
+                <img src={wave} id="core-values-wave"/> 
 
-            
-            <div id="tree-div">
-                <img src={littletree} id="little-tree"/>
-                <img src={bigtree} id="big-tree"/>
-            </div>
-            
-        </section>
-    )
+                
+                <div id="tree-div">
+                    <img src={littletree} id="little-tree"/>
+                    <img src={bigtree} id="big-tree"/>
+                </div>
+                
+            </section>
+        )
 }
 
 

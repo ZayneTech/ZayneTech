@@ -7,6 +7,9 @@ import linkdin from '../assets/svgs/linkdin.svg';
 import ValuesSection from './corevalues';
 import Services from './services';
 import HomeProjectSection from './projects';
+import '../assets/stylesheets/homepage.css';
+
+
 
 const Homepage = () => {
 
@@ -42,7 +45,7 @@ const Homepage = () => {
 
                 <InfoBox />
     
-                <ValuesSection />
+                <ValuesSection bool={true}/>
 
                 <Services />
 

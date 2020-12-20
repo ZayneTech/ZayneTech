@@ -1,33 +1,30 @@
-import React, {useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import "../assets/stylesheets/navbar.css";
 import ZayneTechLight from "../assets/svgs/ZayneTech Logo.svg";
 import ZayneTechDark from "../assets/svgs/ZayneTech Dark Logo.svg";
+import {ScrollContext} from "../components/globalscroll";
 import Icon from "./icon";
 
 
 const Navbar = (props) => {
-
-    const [scrollPos, setScrollPos] = useState(window.pageYOffset);
+    const scrollPos = useContext(ScrollContext);
+    const [prevScrollPos, setPrevScrollPos] = useState(scrollPos); 
     const [IconColor] = useState(props.fill);
     const [Logo, setLogo] = useState('');
 
     useEffect (() => {
     props.mode ? setLogo(ZayneTechLight) : setLogo(ZayneTechDark);
     }, [])
-
-    var prevScrollpos = window.pageYOffset;
-
-    window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-
-        if (prevScrollpos > currentScrollPos) {
+    
+    useEffect(() => {
+        if (prevScrollPos >= scrollPos) {
             document.getElementById("navbar").style.top = "0";
-            setScrollPos(currentScrollPos);
         } else {
             document.getElementById("navbar").style.top = "-100px";
-         }
-        prevScrollpos = currentScrollPos;
-    }
+        };
+        setPrevScrollPos(scrollPos)
+    }, [scrollPos]) 
+
 
     if (scrollPos === 0 ) {
         return (
@@ -42,7 +39,7 @@ const Navbar = (props) => {
                 </div>
             </nav>
         ) 
-    } else {
+    } else { 
         return (
             <nav className="navbar active" id="navbar">
 
@@ -56,8 +53,8 @@ const Navbar = (props) => {
                 </div>
             </nav>
         )
-    }
-}
+    } 
+} 
 
 export default Navbar;
 
