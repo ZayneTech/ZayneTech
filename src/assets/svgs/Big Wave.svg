@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1767.61" height="625.577" viewBox="0 0 1767.61 625.577">
+  <defs>
+    <filter id="Path_879" x="0" y="0" width="1640.11" height="549.077" filterUnits="userSpaceOnUse">
+      <feOffset dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Big_Wave" data-name="Big Wave" transform="translate(202.709 -107.5)">
+    <g transform="matrix(1, 0, 0, 1, -202.71, 107.5)" filter="url(#Path_879)">
+      <path id="Path_879-2" data-name="Path 879" d="M-6929.7,6806.3s-295.307-154.938-765.305,0-589.364-181.394-783.332,158.718c-172.436,302.359,1183.186,249.309,1489.307,231.1,37.247-2.215,58.985-3.938,59.331-4.357C-6926.595,7187.981-6929.7,6806.3-6929.7,6806.3Z" transform="translate(8530.93 -6696.94)" fill="#2e3847"/>
+    </g>
+    <path id="Path_880" data-name="Path 880" d="M-8492.051,7142.656s295.308,154.938,765.306,0,589.364,181.394,783.332-158.718c172.436-302.359-1183.186-249.309-1489.307-231.1-37.247,2.215-58.985,3.938-59.331,4.357C-8495.154,6760.976-8492.051,7142.656-8492.051,7142.656Z" transform="translate(8493.221 -6478.44)" fill="#2e3847"/>
+  </g>
+</svg>

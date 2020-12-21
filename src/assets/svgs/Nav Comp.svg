@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="50" viewBox="0 0 400 50">
+  <g id="Nav_Comp" data-name="Nav Comp" transform="translate(-140 -1779)">
+    <g id="Nav_Example" data-name="Nav Example" transform="translate(140 1779)">
+      <rect id="Rectangle_235" data-name="Rectangle 235" width="400" height="50" fill="#2e3847"/>
+      <text id="Navbar" transform="translate(15 32.52)" fill="#00d8ff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Navbar</tspan></text>
+      <text id="Link" transform="translate(245 32.52)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Link</tspan></text>
+      <text id="Link-2" data-name="Link" transform="translate(353 32.52)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Link</tspan></text>
+      <text id="Link-3" data-name="Link" transform="translate(299 32.52)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Link</tspan></text>
+    </g>
+    <g id="Nav_Example-2" data-name="Nav Example" transform="translate(140 1779)">
+      <rect id="Rectangle_235-2" data-name="Rectangle 235" width="400" height="50" fill="#2e3847"/>
+      <text id="Navbar-2" data-name="Navbar" transform="translate(15 32.52)" fill="#00d8ff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Navbar</tspan></text>
+      <text id="Link-4" data-name="Link" transform="translate(245 32.52)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Link</tspan></text>
+      <text id="Link-5" data-name="Link" transform="translate(353 32.52)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Link</tspan></text>
+      <text id="Link-6" data-name="Link" transform="translate(299 32.52)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Link</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -19,7 +19,15 @@ const ValuesSection = () => {
                     <img src={greenarrow} />
                 </div>
 
-                <Icon fill="#79C99E"/>
+                <Icon  
+                    fill1='#495464'
+                    fill2= '#495464'
+                    fill3='#495464'
+                    fill4="#79C99E" 
+                    fill5='#495464' 
+                    fill6='#495464' 
+                    fill7='#495464'
+                />
 
                 <img src={wave} id="core-values-wave"/> 
 

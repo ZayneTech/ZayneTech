@@ -1,6 +1,6 @@
 footer {
     width: 100vw;
-    height: 550px;
+    height: 500px;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -52,6 +52,7 @@ footer {
     width: 50vw;
     height: 1px;
     border-top: 1.5px solid #2E3847;
+    margin-top: 5vh;
 }
 
 #company-footer {

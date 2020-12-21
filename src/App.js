@@ -4,8 +4,12 @@ import Navbar from './components/navbar';
 import Homepage from './components/homepage';
 import Footer from './components/footer';
 import About from "./components/about";
+import ServicesPage from './components/servicespage';
 import { ScrollProvider } from "./components/globalscroll";
 import './App.css';
+import Frontend from './components/frontend';
+import ContactBox from './components/contact-box';
+
 
 
 function App() {
@@ -19,16 +23,92 @@ function App() {
 
       <Router>
         <ScrollProvider>
+          
             <Route exact path='/'>
-                <Navbar fill="#1985A1" mode={true} />
+                <Navbar fill1='#495464'
+                    fill2= '#495464'
+                    fill3='#495464'
+                    fill4="#1985A1" 
+                    fill5='#495464' 
+                    fill6='#495464' 
+                    fill7='#495464'
+                    mode={true} 
+                />
                 <Homepage />
                 <Footer />
             </Route>
 
+            <Route exact path="/services">
+              <Navbar fill1='#495464'
+                    fill2= '#495464'
+                    fill3='#495464'
+                    fill4="#1985A1"  
+                    fill5='#495464' 
+                    fill6='#495464' 
+                    fill7='#495464' 
+                    mode={false} 
+                /> 
+
+                <ServicesPage />
+                <Footer />
+            </Route>
+
+            <Route path="/services/frontend">
+              <Navbar fill1='#495464'
+                      fill2='#495464'
+                      fill3='#495464'
+                      fill4="#1985A1" 
+                      fill5='#495464' 
+                      fill6='#495464' 
+                      fill7='#495464' 
+                      mode={false} 
+                  /> 
+              <Frontend />
+              <ContactBox />
+              <Footer />
+
+            </Route>
+
+            <Route path="/services/backend">
+            <Navbar fill1='#495464'
+                    fill2= '#495464'
+                    fill3='#495464'
+                    fill4="#79C99E" 
+                    fill5='#495464' 
+                    fill6='#495464' 
+                    fill7='#495464' 
+                    mode={false} 
+                /> 
+
+            </Route>
+
+            <Route path="/services/design">
+            <Navbar fill1='#495464'
+                    fill2= '#495464'
+                    fill3='#495464'
+                    fill4="#1985A1"
+                    fill5='#495464' 
+                    fill6='#495464' 
+                    fill7='#495464' 
+                    mode={false} 
+                /> 
+
+            </Route>
+
             <Route path='/about'>
-                <Navbar fill="#79C99E" mode={false} /> 
+                <Navbar fill1='#495464'
+                    fill2= '#495464'
+                    fill3='#495464'
+                    fill4="#79C99E" 
+                    fill5='#495464' 
+                    fill6='#495464' 
+                    fill7='#495464' 
+                    mode={false} 
+                /> 
+
                 <About />
             </Route>
+
         </ScrollProvider>        
       </Router>
 
