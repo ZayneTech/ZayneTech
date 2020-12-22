@@ -91,11 +91,11 @@
     color: white;
 }
 
-.blue {
+#nav-links .blue {
     background-color: #1985A1
 }
 
-.green {
+#nav-links .green {
     background-color: #79C99E;
 }
 

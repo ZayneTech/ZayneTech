@@ -9,6 +9,8 @@ import { ScrollProvider } from "./components/globalscroll";
 import './App.css';
 import Frontend from './components/frontend';
 import ContactBox from './components/contact-box';
+import Backend from './components/backend';
+import Design from './components/design';
 
 
 
@@ -80,6 +82,10 @@ function App() {
                     mode={false} 
                 /> 
 
+                <Backend />
+                <ContactBox />
+                <Footer />
+
             </Route>
 
             <Route path="/services/design">
@@ -92,6 +98,10 @@ function App() {
                     fill7='#495464' 
                     mode={false} 
                 /> 
+
+                <Design />
+                <ContactBox />
+                <Footer />
 
             </Route>
 

@@ -11,14 +11,14 @@ import footer from '../assets/svgs/Footer Comp.svg';
 
 const Frontend = () => {
     return (
-        <div id="services-frontend">
-            <div >
-                <div id="big-wave">
-                    <img  src={bigWave}/>
+        <div className="service-pages">
+            <div>
+                <div className="big-wave">
+                    <img src={bigWave}/>
                 </div>
 
-                <div id="frontend-landing">
-                    <div id="landing-text">
+                <div className="services-intro">
+                    <div className="intro-text">
                         <h1>Frontend Development</h1>
                         <h2>Lorem Ipsum text about the 
                             importance of frontend dev-
@@ -32,12 +32,12 @@ const Frontend = () => {
                 </div>
             </div>
 
-            <main id="frontend-main">
+            <main className="services-main">
 
-                <div className="react" id="react-intro">
+                <div className="the-service" id="react-intro">
                     <div>
-                        <h2><span>React</span> Development</h2>
-                        <div id="react-intro-text">
+                        <h2><span className="blue"> React</span> Development</h2>
+                        <div className="service-intro-text">
                             <p>
                                 Lorem Ipsum text about the importance 
                                 of frontend development. Blah blah take 
@@ -49,10 +49,10 @@ const Frontend = () => {
                     </div>   
                 </div>
 
-              <div className="react" id="react-info">
-                    <h2>Why <span>React</span>?</h2>
+              <div className="the-service service-info" id="react-info">
+                    <h2>Why <span className="blue">React</span>?</h2>
                         <img src={reactLogo} />
-                        <div className="react-info-text">
+                        <div className="service-info-text">
                             <p >
                                 Lorem Ipsum text about the importance of frontend 
                                 development. Blah blah take up more space make it 
@@ -68,7 +68,6 @@ const Frontend = () => {
                 </div> 
 
                 <div  id="react-demo">
-
                     <section id="components-section">
                         <h1>Components</h1>
                         <div className="image-comp">

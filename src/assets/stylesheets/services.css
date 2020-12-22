@@ -249,35 +249,29 @@
 }
 
 
-/* Services - Frontend */
+/*Services classes */
 
-#services-frontend {
-    width: 100vw;
-    min-height: 100vh;
-    position: relative;
-}
-
-#big-wave {
+.big-wave {
     position: absolute;
     z-index: 0;
 }
 
-#big-wave img{                                    
+.big-wave img{                                    
     width: 130vw;
     position: relative;
     left: -15vw;
     top: 4.5vh;
     transform: scaleY(.9);
     z-index: 0;
-/*  height: 80vh;
-    position: absolute;
-    left: -4.5vw;
-    top: 10vh;
-    transform: scaleX(1.2);
-*/
 }
 
-#frontend-landing {
+.service-pages {
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
+
+.services-intro {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -289,7 +283,7 @@
     position: relative;
 }
 
-#landing-text {
+.intro-text {
     width: 25vw;
     color: white;
     position: relative;
@@ -297,13 +291,7 @@
     z-index: 1;
 }
 
-#frontend-image {
-    position: relative;
-    top: -2.5vh;
-    z-index: 1;
-}
-
-#frontend-main {
+.services-main {
     width: 100vw;
     min-height: 100vh;
     position: relative;
@@ -313,7 +301,7 @@
     justify-content: flex-start;
 }
 
-.react {
+.the-service {
     width: 100vw;
     min-height: 35vh;
     display: flex;
@@ -322,28 +310,17 @@
     left: 12.5vw;
 }
 
-.react h2 {
+.the-service h2 {
     font-size: 36px;
     color: #2E3847;
 }
 
-.react span {
-    color: #00D8FF;
-}
-
-#react-intro-text {
+.service-intro-text {
     width: 40%;
     font-size: 22px;
 }
 
-#react-intro img {
-    height: 65vh;
-    position: absolute;
-    top: -35vh;
-    right: 15vw;
-}
-
-#react-info {
+.service-info {
     width: 90vw;
     min-height: 55vh;
     display: flex;
@@ -351,19 +328,54 @@
     justify-content: flex-start;
     align-items: flex-start;
     position: relative;
-    left: 22.5vw;
+    left: 25vw;
 }
 
-.react-info-text {
-    width: 40%;
+.service-info-text {
+    width: 50%;
     font-size: 22px;
 }
-
-#react-info img {
+.service-info img {
     width: 7.5vw;
     position: absolute;
     left: -10vw;
     top: 22.5vh;
+}
+.services-extra-info {
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blue{
+    background-color: white;
+    color: #00D8FF;
+}
+
+.green {
+    background-color: white;
+    color: #539E43;
+}
+.pink {
+    background-color: white;
+    color: #FF2BC2;
+}
+
+
+/* Services - Frontend */
+
+#frontend-image {
+    position: relative;
+    top: -2.5vh;
+    z-index: 1;
+}
+
+#react-intro img {
+    height: 65vh;
+    position: absolute;
+    top: -35vh;
+    right: 15vw;
 }
 
 #react-demo {
@@ -455,6 +467,37 @@
     width: 35%;
     position: relative;
 }
+
+/* backend */
+
+#backend-image img {
+    width: 11vw;
+    position: relative;
+    top: -5vh;
+}
+
+#node-intro img {
+    position: absolute;
+    top: -12.5vh;
+    right: 17.5vw;
+}
+
+
+/* Desgn */
+
+#design-image {
+    position: relative;
+    top: -3vh
+}
+
+#adobe-intro img {
+    position: absolute;
+    top: -27.5vh;
+    right: 22.5vw;
+}
+
+
+
 
 @keyframes navLoop {
     0% {
