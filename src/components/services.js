@@ -35,7 +35,7 @@ const Services = () => {
                     <h2> Backend Web <br /> Development</h2>
                     <img src={server} id="server"/>
                     <p>Lorem Ipsum Lorem Ipsum and <br />random text Ipsum Lorem blah  <br /> 
-                       fill this space up, and this line <br /> too make it a decent sized <br />
+                        fill this space up, and this line <br /> too make it a decent sized <br />
                         description.
                     </p>
                     <img src={greenarrow} className="service-arrow"/>

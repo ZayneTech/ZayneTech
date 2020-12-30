@@ -26,7 +26,7 @@ const ServicesContent = () => {
                     </div>
             </div>
 
-            <div className="content-div">
+            <div className="content-div" id="content-div-two">
                     <div className="content-text">
                         <h1>Web Development</h1>
                         <h2>Lorem Ipsum Text</h2>

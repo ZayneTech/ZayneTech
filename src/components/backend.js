@@ -18,8 +18,7 @@ const Backend = () => {
                     <div className="intro-text">
                         <h1>Backend Development</h1>
                         <h2>Lorem Ipsum text about the 
-                            importance of frontend dev-
-                            elopement.
+                            importance of frontend developement.
                         </h2>
                     </div>
 
@@ -83,7 +82,7 @@ const Backend = () => {
                 </div>
 
 
-                <div className="the-service service-info" >
+                <div className="the-service service-info extra-info">
                     <div>
                         <h2><span className="green">API</span> Development</h2>
                         <div className="service-intro-text">

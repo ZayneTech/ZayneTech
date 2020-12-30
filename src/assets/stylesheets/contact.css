@@ -22,3 +22,20 @@
     border-radius: 25px;
     color: white;
 }
+
+
+@media screen and (max-width: 768px) {
+    #contact-box {
+        height: 100px;
+    }
+
+    #contact-box h1 {
+        display: none;
+    }
+
+    #contact-box button {
+        width: 50%;
+        height: 30%;
+        font-size: 16px;
+    }
+}

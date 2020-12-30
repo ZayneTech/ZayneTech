@@ -13,7 +13,7 @@ const Frontend = () => {
     return (
         <div className="service-pages">
             <div>
-                <div className="big-wave">
+                <div className="big-wave" id="frontend-wave">
                     <img src={bigWave}/>
                 </div>
 
@@ -21,8 +21,7 @@ const Frontend = () => {
                     <div className="intro-text">
                         <h1>Frontend Development</h1>
                         <h2>Lorem Ipsum text about the 
-                            importance of frontend dev-
-                            elopement.
+                            importance of frontend developement.
                         </h2>
                     </div>
 

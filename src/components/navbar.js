@@ -57,7 +57,7 @@ const Navbar = (props) => {
                         id="logo"
                     />
 
-                    <h1 id="ZayneTech">ZayneTech</h1>
+                    <h1>ZayneTech</h1>
                 
                     <div className="menu-toggle" id="mobile-menu">
                         <span className="bar"></span>
@@ -81,6 +81,7 @@ const Navbar = (props) => {
             </nav>
         ) 
     } else { 
+
         return (
             <nav className="navbar active" id="navbar">
                 <div className="logo-div">
@@ -100,7 +101,8 @@ const Navbar = (props) => {
                 </div>
                  
 
-                <div id="nav-links2">
+                <div id="nav-links2" onClick={() => toggleNav()}>
+                    <h1 id="ZayneTech">ZayneTech</h1>
                     <Link to="/services"> Services</Link> 
                     <Link > Portfolio</Link>
                     <Link to="/about"> About </Link>

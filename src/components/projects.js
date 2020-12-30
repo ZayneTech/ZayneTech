@@ -13,8 +13,10 @@ const HomeProjectSection = () => {
                 <h2 id="project-section-subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit. < br />
                     Aliquam euismod quis ligula maximus blandit. 
                 </h2>
-
-                <button id="projects-link-button"> View Our Work</button>
+                <div id="project-link-div">
+                    <button id="projects-link-button"> View Our Work</button>
+                </div>
+                
 
                 <div id="contact-link-div">
                     <h2 id="questions-header"> Any Questions?</h2>

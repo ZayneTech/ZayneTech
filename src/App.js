@@ -13,6 +13,10 @@ import Backend from './components/backend';
 import Design from './components/design';
 
 import {whiteLogo, darkLogoBlue, darkLogoGreen } from "./assets/data/logoColor";
+import InfoBox from './components/servicesinfobox';
+import ValuesSection from './components/corevalues';
+import Services from './components/services';
+import HomeProjectSection from './components/projects';
 
 
 
@@ -28,14 +32,20 @@ function App() {
       <Router>
         <ScrollProvider>
           
-            <Route exact path='/'>
+            <Route exact path='/' className="main">
                 <Navbar 
                     color={whiteLogo}
                     colorTwo={darkLogoBlue}
                     mode={true} 
                 />
                 <Homepage />
-                <Footer />
+                <main >
+                      <InfoBox />
+                      <ValuesSection bool={true} />
+                      <Services />
+                      <HomeProjectSection />
+                </main>
+                 <Footer />
             </Route>
 
             <Route exact path="/services">

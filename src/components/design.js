@@ -83,7 +83,7 @@ const Design = () => {
             </div>
 
 
-            <div className="the-service service-info" >
+            <div className="the-service service-info extra-info" >
                 <div>
                     <h2><span className="pink">Color</span> Scheme</h2>
                     <div className="service-intro-text">

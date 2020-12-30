@@ -8,6 +8,8 @@ import ValuesSection from './corevalues';
 import Services from './services';
 import HomeProjectSection from './projects';
 import '../assets/stylesheets/homepage.css';
+import homepageimg from '../assets/images/Keyboard and notes.jpg'
+
 
 
 
@@ -15,11 +17,13 @@ const Homepage = () => {
 
     return (
         <main id="homepage">
-                <div id="homepage-img"></div>
+                <div id="homepage-img">
+                   {/* <img src={homepageimg}/> */}
+                </div>
 
                 <section id="homepage-filter">
                     <div id="homepage-text">
-                        <div>
+                        <div id="text-div">
                             <div id="mission-box">
                                 <p> Our mission</p> 
                                 <img src={arrow}/>
@@ -34,23 +38,14 @@ const Homepage = () => {
                         </div>
 
                         <div id="homepage-contacts">
-                            <img src={mail}/>
-                            <img src={instagram}/>
-                            <img src={linkdin}/>
+                            <img src={mail} className="contact-img"/>
+                            <img src={instagram} className="contact-img"/>
+                            <img src={linkdin} className="contact-img"/>
                         </div>
                     </div>
                 </section>
 
-                <section id="homepage-wave"></section>
-
-                <InfoBox />
-    
-                <ValuesSection bool={true}/>
-
-                <Services />
-
-                <HomeProjectSection />
-                
+                <section id="homepage-wave"></section>  
         </main>
     )
 }

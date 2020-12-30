@@ -10,7 +10,7 @@ import linkdin from '../assets/svgs/linkdin.svg';
 const Footer = () => {
     return(
         <footer id="footer">
-            <img src={ZayneTechLogo} id="footer-logo"/>
+           {/* <img src={ZayneTechLogo} id="footer-logo"/> */}
 
             <div id="footer-links">
                 <div>
