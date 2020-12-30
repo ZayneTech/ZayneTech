@@ -12,6 +12,8 @@ import ContactBox from './components/contact-box';
 import Backend from './components/backend';
 import Design from './components/design';
 
+import {whiteLogo, darkLogoBlue, darkLogoGreen } from "./assets/data/logoColor";
+
 
 
 function App() {
@@ -27,13 +29,9 @@ function App() {
         <ScrollProvider>
           
             <Route exact path='/'>
-                <Navbar fill1='#495464'
-                    fill2= '#495464'
-                    fill3='#495464'
-                    fill4="#1985A1" 
-                    fill5='#495464' 
-                    fill6='#495464' 
-                    fill7='#495464'
+                <Navbar 
+                    color={whiteLogo}
+                    colorTwo={darkLogoBlue}
                     mode={true} 
                 />
                 <Homepage />
@@ -41,13 +39,8 @@ function App() {
             </Route>
 
             <Route exact path="/services">
-              <Navbar fill1='#495464'
-                    fill2= '#495464'
-                    fill3='#495464'
-                    fill4="#1985A1"  
-                    fill5='#495464' 
-                    fill6='#495464' 
-                    fill7='#495464' 
+              <Navbar color={darkLogoBlue}
+                    colorTwo={darkLogoBlue}
                     mode={false} 
                 /> 
 
@@ -56,13 +49,8 @@ function App() {
             </Route>
 
             <Route path="/services/frontend">
-              <Navbar fill1='#495464'
-                      fill2='#495464'
-                      fill3='#495464'
-                      fill4="#1985A1" 
-                      fill5='#495464' 
-                      fill6='#495464' 
-                      fill7='#495464' 
+              <Navbar color={darkLogoBlue}
+                      colorTwo={darkLogoBlue}
                       mode={false} 
                   /> 
               <Frontend />
@@ -72,13 +60,8 @@ function App() {
             </Route>
 
             <Route path="/services/backend">
-            <Navbar fill1='#495464'
-                    fill2= '#495464'
-                    fill3='#495464'
-                    fill4="#79C99E" 
-                    fill5='#495464' 
-                    fill6='#495464' 
-                    fill7='#495464' 
+            <Navbar color={darkLogoGreen}
+                    colorTwo={darkLogoGreen} 
                     mode={false} 
                 /> 
 
@@ -89,13 +72,8 @@ function App() {
             </Route>
 
             <Route path="/services/design">
-            <Navbar fill1='#495464'
-                    fill2= '#495464'
-                    fill3='#495464'
-                    fill4="#1985A1"
-                    fill5='#495464' 
-                    fill6='#495464' 
-                    fill7='#495464' 
+            <Navbar color={darkLogoBlue}
+                    colorTwo={darkLogoBlue} 
                     mode={false} 
                 /> 
 
@@ -106,13 +84,8 @@ function App() {
             </Route>
 
             <Route path='/about'>
-                <Navbar fill1='#495464'
-                    fill2= '#495464'
-                    fill3='#495464'
-                    fill4="#79C99E" 
-                    fill5='#495464' 
-                    fill6='#495464' 
-                    fill7='#495464' 
+                <Navbar color={darkLogoGreen}
+                    colorTwo={darkLogoGreen} 
                     mode={false} 
                 /> 
 

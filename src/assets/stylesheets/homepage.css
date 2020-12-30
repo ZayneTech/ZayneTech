@@ -14,7 +14,7 @@
     width: 100vw;
     background-image: url("../images/Keyboard and notes.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 100%; 
     background-position: 0 -152px;
     z-index: -1;
   }

@@ -4,6 +4,7 @@ import littletree from '../assets/svgs/Little Tree.svg';
 import bigtree from '../assets/svgs/Big Tree.svg';
 import wave from '../assets/svgs/Wave 2.svg'
 import greenarrow from '../assets/svgs/green arrow.svg';
+import {darkLogoGreen} from '../assets/data/logoColor';
 
 
 
@@ -20,13 +21,8 @@ const ValuesSection = () => {
                 </div>
 
                 <Icon  
-                    fill1='#495464'
-                    fill2= '#495464'
-                    fill3='#495464'
-                    fill4="#79C99E" 
-                    fill5='#495464' 
-                    fill6='#495464' 
-                    fill7='#495464'
+                    base={darkLogoGreen.base}
+                    primary={darkLogoGreen.primary}
                 />
 
                 <img src={wave} id="core-values-wave"/> 

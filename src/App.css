@@ -3,6 +3,7 @@
 }
 
 body {
+  width: 100%;
   overflow-x: hidden;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
