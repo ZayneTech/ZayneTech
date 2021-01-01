@@ -39,11 +39,8 @@ const AboutScroll = () => {
         } else if (vHeight + (6 * difference) && scrollPos < vHeight + (7 * difference)){
             setLogoColors(prev => ({...prev, [`fill7`]: "#79C99E"}))
         }
-    }, [scrollPos])
+    }, [scrollPos]);
 
-    
-
-        
         
     return(
         <section id="about-scroll-section"> 
@@ -75,8 +72,8 @@ const AboutScroll = () => {
             <div id="column-2" >
                 <div id="text">
                     <h1>Lorem <span> Ipsum </span></h1>
-                    <p>More lorem ipsum text to take up <br/>
-                    about three lines of space to make <br/>
+                    <p>More lorem ipsum text to take up 
+                    about three lines of space to make 
                     it seem really important.</p>
                 </div>
 

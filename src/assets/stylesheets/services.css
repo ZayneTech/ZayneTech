@@ -757,7 +757,7 @@
     z-index: 1;
     color: white;
     top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 100cdpx;
 }
 
 #frontend-image img, #backend-image img, #design-image img {

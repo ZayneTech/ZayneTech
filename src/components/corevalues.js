@@ -13,7 +13,7 @@ const ValuesSection = () => {
         return (
             <section id="core-values-section">
                 <h1>Our core values</h1> <br />
-                <h2>enable quality Websites</h2>
+                <h2>enable quality websites</h2>
 
                 <div id="core-values-about-text">
                     <h3>About Us</h3> 

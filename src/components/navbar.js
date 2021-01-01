@@ -14,12 +14,14 @@ const Navbar = (props) => {
 
     /* color scheme for navbar */
     const [font, setFont] = useState('');
+    const [brandName, setBrandName] = useState('');
     const [logoColor, setLogoColor] = useState(props.color);
     const [logoColorTwo, setLogoColorTwo] = useState(props.colorTwo)
 
     /* set font color */
     useEffect (() => {
-        props.mode ? setFont('light-font') : setFont('dark-font')
+        props.mode ? setFont('light-font') : setFont('dark-font');
+        props.name ? setBrandName('white') : setBrandName('#495464');
     }, [])
     
     /* navbar state on scroll */
@@ -57,7 +59,7 @@ const Navbar = (props) => {
                         id="logo"
                     />
 
-                    <h1>ZayneTech</h1>
+                    <h1 style={{color: brandName}}>ZayneTech</h1>
                 
                     <div className="menu-toggle" id="mobile-menu">
                         <span className="bar"></span>
@@ -102,7 +104,7 @@ const Navbar = (props) => {
                  
 
                 <div id="nav-links2" onClick={() => toggleNav()}>
-                    <h1 id="ZayneTech">ZayneTech</h1>
+        
                     <Link to="/services"> Services</Link> 
                     <Link > Portfolio</Link>
                     <Link to="/about"> About </Link>

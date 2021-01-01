@@ -37,6 +37,7 @@ function App() {
                     color={whiteLogo}
                     colorTwo={darkLogoBlue}
                     mode={true} 
+                    name = {true}
                 />
                 <Homepage />
                 <main >
@@ -52,6 +53,7 @@ function App() {
               <Navbar color={darkLogoBlue}
                     colorTwo={darkLogoBlue}
                     mode={false} 
+                    name = {false}
                 /> 
 
                 <ServicesPage />
@@ -62,6 +64,7 @@ function App() {
               <Navbar color={darkLogoBlue}
                       colorTwo={darkLogoBlue}
                       mode={false} 
+                      name={false}
                   /> 
               <Frontend />
               <ContactBox />
@@ -73,6 +76,7 @@ function App() {
             <Navbar color={darkLogoGreen}
                     colorTwo={darkLogoGreen} 
                     mode={false} 
+                    name={false}
                 /> 
 
                 <Backend />
@@ -85,6 +89,7 @@ function App() {
             <Navbar color={darkLogoBlue}
                     colorTwo={darkLogoBlue} 
                     mode={false} 
+                    name={false}
                 /> 
 
                 <Design />
@@ -97,6 +102,7 @@ function App() {
                 <Navbar color={darkLogoGreen}
                     colorTwo={darkLogoGreen} 
                     mode={false} 
+                    name={false}
                 /> 
 
                 <About />
