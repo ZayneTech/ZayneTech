@@ -7,7 +7,8 @@ import arrow from '../assets/svgs/green arrow.svg';
 
 const ServicesContent = () => {
     return (
-        <div id="services-content">
+
+        <div className="page-content" id="services-content">
             
             <div className="content-div">
                     <div>

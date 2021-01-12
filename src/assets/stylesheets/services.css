@@ -1,10 +1,14 @@
 /* HomePage Info Box */
+
 #infobox {
     position: absolute;
     top: 87.5vh;
-    left: 25vw;
-    height: 150px;
-    width: 50vw;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 19%;
+    max-height: 400px;
+    width: 50%;
+    max-width: 1440px;
     background-color: #3D4B5E;
     border-radius: 20px;
     display: flex;
@@ -12,7 +16,17 @@
     align-items: center;
     text-align: center;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 25%);
-    z-index: 3;
+    z-index: 2;
+}
+
+.info-box-message:nth-child(1) img {
+    width: 60%;
+}
+.info-box-message:nth-child(2) img{
+    width: 40%;
+}
+.info-box-message:nth-child(3) img{
+    width: 39%;
 }
 
 .info-box-message {
@@ -30,31 +44,34 @@
 /* Homepage Info Section */
 
 #services-section {
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     background-color: #3D4B5E;
     display: flex;
     flex-wrap: wrap;
     position: relative;
     top: -15vh;
+    left: 0vw;
     z-index: 0;
 }
 
 #services-header {
-    width: 100vw;
     color: white;
     font-size: 45px;
     font-weight: 500;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 5vh;
 }
 
 #services-cards {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100vw;
+    align-items: center;
+    width: 100%;
+    height: 75%;
 }
 
 #services-cards h2 {
@@ -69,12 +86,13 @@
 
 #service-card-1, #service-card-2, #service-card-3 {
     background-color: rgba(255, 255, 255, 20%);
-    width: 25vw;
+    min-width: 25%;
     height: 57vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
 } 
 
 #designcomputer {
@@ -110,7 +128,7 @@
 }
 
 #services-main {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -121,7 +139,7 @@
 
 #services-main-text {
     height: 75vh;
-    width: 32.5vw;
+    width: 35%;
     color: black;
     display: flex;
     flex-direction: column;
@@ -140,7 +158,7 @@
 }
 
 #services-main img  {
-    width: 42vw;
+    width: 42%;
     height: auto;
     position: relative;
     top: 2.5vw;
@@ -187,8 +205,8 @@
 }
 
 .content-div {
-    width: 100vw;
-    height: 80vh;
+    width: 100%;
+    height: 60vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -198,7 +216,7 @@
 .content-text {
     align-self: flex-start;
     position: relative;
-    top: 15vh;
+    top: 10vh;
 }
 
 .content-text h1{
@@ -257,9 +275,9 @@
 }
 
 .big-wave img{                                    
-    width: 130vw;
+    width: 130%;
     position: relative;
-    left: -15vw;
+    left: -20%;
     top: 4.5vh;
     transform: scaleY(.9);
     z-index: 0;
@@ -562,6 +580,7 @@
     }
 
     #services-section {
+        min-height: 100vh;
         top: -10vh
     }
     
@@ -872,6 +891,8 @@
   
 
 }
+
+
 
 
 

@@ -8,7 +8,10 @@ import colormind from '../assets/svgs/Colormind logo.svg'
 
 const Design = () => {
     return (
-        <div className="service-pages">
+
+        <div className="wrapper">
+            <div className="page-content">
+            <div className="service-pages">
         <div >
             <div className="big-wave">
                 <img src={bigWave}/>
@@ -115,6 +118,8 @@ const Design = () => {
 
         
     </div>
+            </div>
+        </div>
     )
 }
 

@@ -1,36 +1,38 @@
 import React from 'react';
 import '../assets/stylesheets/footer.css';
+import {Link} from 'react-router-dom';
 import ZayneTechLogo from '../assets/svgs/ZayneTech Dark Logo.svg'
 import mail from '../assets/svgs/Closed Mail.svg';
 import instagram from '../assets/svgs/instagram.svg';
 import linkdin from '../assets/svgs/linkdin.svg';
+import { Instagram, Linkdin, Mail } from './contactsvg';
 
 
 
 const Footer = () => {
     return(
-        <footer id="footer">
+        <footer className="page-content" id="footer">
            {/* <img src={ZayneTechLogo} id="footer-logo"/> */}
 
             <div id="footer-links">
                 <div>
                     <h3> Contact </h3>
                     <p>(868) - 798 - 5258</p>
-                    <p>Zaynetechnologies@gmail</p>
+                    <p>Zaynetechnologies@gmail</p> 
                 </div>
 
                 <div>
                     <h3> Company </h3>
-                    <p>About Us</p>
-                    <p>Team</p>
+                    <Link to ="/about"><p>About Us</p></Link>
+                   <Link to="/about"><p>Team</p> </Link> 
                 </div> 
 
                 <div>
-                    <h3> Services </h3>
-                    <p>Web Design</p>
-                    <p>Frontend Development</p>
-                    <p>Backend Development</p>
-                    <p>Web Hosting Support</p>
+                   <h3> Services </h3>  
+                 <Link to="/services/design">  <p>Web Design</p></Link> 
+                 <Link to="/services/frontend">  <p>Frontend Development</p> </Link>
+                 <Link to="/services/backend">  <p>Backend Development</p> </Link>
+                 <Link to="/services"> <p>Web Hosting Support</p> </Link>
                 </div>
 
                 <div>
@@ -50,9 +52,9 @@ const Footer = () => {
             <div id="company-footer">
                 <h3>  ZayneTech 2020</h3>
                 <div id="footer-contacts">
-                    <img src={mail} />
-                    <img src={instagram} />
-                    <img src={linkdin} />
+                  <a href="mailto: zaynetechnologies@gmail.com">  <Mail color="black" /> </a>
+                    <Instagram color="black"/>
+                    <Linkdin color="black"/>
                 </div>
             </div>
 

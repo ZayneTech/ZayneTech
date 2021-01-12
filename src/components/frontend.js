@@ -11,7 +11,9 @@ import footer from '../assets/svgs/Footer Comp.svg';
 
 const Frontend = () => {
     return (
-        <div className="service-pages">
+        <div className="wrapper">
+            <div className="page-content">
+            <div className="service-pages">
             <div>
                 <div className="big-wave" id="frontend-wave">
                     <img src={bigWave}/>
@@ -103,6 +105,9 @@ const Frontend = () => {
 
             
         </div>
+            </div>
+        </div>
+        
     )
 }
 

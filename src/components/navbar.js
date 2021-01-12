@@ -29,9 +29,9 @@ const Navbar = (props) => {
     useEffect(() => {
         if(document.body.clientWidth > 768){
             if (prevScrollPos >= scrollPos) {
-                document.getElementById("navbar").style.top = "0";
+                document.getElementById("navbar-wrapper").style.top = "0";
             } else {
-                document.getElementById("navbar").style.top = "-100px";
+                document.getElementById("navbar-wrapper").style.top = "-100px";
             };
             setPrevScrollPos(scrollPos)
         } 
@@ -51,7 +51,8 @@ const Navbar = (props) => {
 
     if (scrollPos === 0 && document.body.clientWidth > 768) {
         return (
-            <nav className="navbar" id="navbar">
+            <div className="wrapper" id="navbar-wrapper">
+            <nav className="navbar page-content">
                 <Link className="logo-div" to="/">
                     <Icon  
                         base={logoColor.base}
@@ -81,11 +82,13 @@ const Navbar = (props) => {
                     </Link>
                 </div>
             </nav>
+            </div>
         ) 
     } else { 
 
         return (
-            <nav className="navbar active" id="navbar">
+            <div className="wrapper active" id="navbar-wrapper">
+            <nav className="navbar page-content" id="navbar">
                 <div className="logo-div">
                 <Link  to="/">
                     <Icon   
@@ -116,6 +119,7 @@ const Navbar = (props) => {
                     </Link>
                 </div>
             </nav>
+            </div>
         )
     } 
 } 

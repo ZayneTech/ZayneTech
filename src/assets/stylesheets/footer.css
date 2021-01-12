@@ -5,7 +5,10 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    top: -10vh;
+}
+
+footer a {
+    color: black;
 }
 
 #footer-logo  {
@@ -16,12 +19,12 @@ footer {
 }
 
 #footer-links {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     position: relative;
-    top: 10vh;
+    top: 5%;  
 }
 
 #footer-headers div {
@@ -32,27 +35,27 @@ footer {
 #footer-links h3 {
     font-weight: 500;
     font-size: 24px;
-    margin-bottom: 4vh;
+    margin-bottom: 17%;
 }
 
 #footer-links p {
     font-size: 16px;
-    margin: 1.5vh 0 1.5vh 0;
+    margin: 12% 0 12% 0;
 }
 
 #spacer-div {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 2vh;
+    margin-top: 1.25%;
 }
 
 #spacer {
     width: 50vw;
     height: 1px;
     border-top: 1.5px solid #2E3847;
-    margin-top: 5vh;
+    margin-top: 2.75%;
 }
 
 #company-footer {
@@ -63,12 +66,24 @@ footer {
     position: relative;
 }
 
+#company-footer h3 {
+    font-family: "Shopify Sans Web";
+    font-weight: 800;
+}
+
 #footer-contacts {
     width: 25vw;
     display: flex;
     justify-content: space-around;
-    color: black;
+    align-items: center; 
+    position: relative;
 }
+
+#footer-contacts svg:nth-child(1) {
+    position: relative;
+    top: 2.8px;
+}
+
 
 
 @media screen and (max-width: 768px) {
@@ -92,7 +107,7 @@ footer {
         top: -10.5vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;   
+        justify-content: space-around; 
     }
 
     #company-footer h3 {

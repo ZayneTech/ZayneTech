@@ -1,4 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="467.844" height="578.952" viewBox="0 0 467.844 578.952">
+import React from 'react';
+import '../assets/stylesheets/tree.css';
+
+
+const Tree = () => {
+
+    const tree = () => {
+        
+    }
+
+
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="467.844" height="578.952" viewBox="0 0 467.844 578.952">
   <g id="Little_Tree" data-name="Little Tree" transform="translate(-470.779 -14.261) rotate(1.25)">
     <g id="tree_top_background" data-name="tree top background">
       <circle id="Ellipse_33" data-name="Ellipse 33" cx="78.119" cy="78.119" r="78.119" transform="translate(752.801 208.835)" fill="#00897b"/>
@@ -89,3 +101,8 @@
     </g>
   </g>
 </svg>
+
+    )
+}
+
+export default Tree;

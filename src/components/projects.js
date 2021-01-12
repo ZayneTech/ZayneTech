@@ -5,6 +5,7 @@ import thinker from '../assets/svgs/Thinking.svg';
 
 const HomeProjectSection = () => {
     return (
+        
         <section id="homepage-project-section">
             <div id="project-section-left">
                 <h1 id="project-section-header">We personalize every <span>Website</span> < br />
@@ -26,7 +27,7 @@ const HomeProjectSection = () => {
                 <img src={thinker}/>
             </div>
 
-            <div id="project-section-right">
+            <div  id="project-section-right">
                 <div className="project-section-box" id="project-div-1">
 
                 </div>

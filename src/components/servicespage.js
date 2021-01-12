@@ -8,11 +8,11 @@ import Footer from './footer';
 const ServicesPage = () => {
 
     return(
-        <div id="services-page">
-            <ServicesMain />
-            <ServicesContent />
-            <ContactBox />
-        </div>
+            <div id="services-page">
+                <ServicesMain />
+                <ServicesContent />
+                <ContactBox />
+            </div>
     )
 }
 

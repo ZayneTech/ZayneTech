@@ -1,0 +1,31 @@
+svg {
+    overflow: visible;
+}
+
+#tree_leaves {
+    animation: fall 10s infinite;
+}
+
+
+
+
+
+@keyframes fall {
+    0% {
+        transform: translate(-50px, -100px);
+        opacity: .25;
+        border: none;
+    }
+
+    100% {
+        transform: translate(-50px, 290vh);
+        opacity: 1;
+        border: 2px solid black;
+    }
+}
+
+
+
+
+
+

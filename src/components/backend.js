@@ -8,7 +8,9 @@ import postgres from '../assets/svgs/postgresql-inc.svg';
 
 const Backend = () => {
     return (
-        <div className="service-pages">
+        <div className="wrapper">
+            <div className="page-content">
+            <div className="service-pages">
             <div >
                 <div className="big-wave">
                     <img src={bigWave}/>
@@ -113,6 +115,8 @@ const Backend = () => {
             </main>
 
             
+        </div>
+            </div>
         </div>
     )
 }

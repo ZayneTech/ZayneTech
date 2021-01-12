@@ -1,4 +1,4 @@
-import React, {useState, useContext} from 'react';
+import React, {useEffect}from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Navbar from './components/navbar';
 import Homepage from './components/homepage';
@@ -6,17 +6,21 @@ import Footer from './components/footer';
 import About from "./components/about";
 import ServicesPage from './components/servicespage';
 import { ScrollProvider } from "./components/globalscroll";
+import {whiteLogo, darkLogoBlue, darkLogoGreen } from "./assets/data/logoColor";
 import './App.css';
 import Frontend from './components/frontend';
 import ContactBox from './components/contact-box';
 import Backend from './components/backend';
 import Design from './components/design';
-
-import {whiteLogo, darkLogoBlue, darkLogoGreen } from "./assets/data/logoColor";
 import InfoBox from './components/servicesinfobox';
 import ValuesSection from './components/corevalues';
 import Services from './components/services';
 import HomeProjectSection from './components/projects';
+import ScrollToTop from './components/scrolltotop';
+import Tree from './components/tree';
+import HomepageWrapper from './components/homepage2';
+import HomepageAbout from './components/homepageabout';
+import Homepage2 from './pages/homepage';
 
 
 
@@ -29,8 +33,21 @@ function App() {
   return (
     <div className="App">
 
-      <Router>
+      <Router >
+        <ScrollToTop />
         <ScrollProvider>
+
+          <Route exact path="/zaynetech">
+              <Navbar 
+                color={whiteLogo}
+                colorTwo={darkLogoBlue}
+                mode={true} 
+                name = {true}
+              />
+
+              <HomepageWrapper />
+              <Footer />
+          </Route>
           
             <Route exact path='/' className="main">
                 <Navbar 
@@ -40,7 +57,7 @@ function App() {
                     name = {true}
                 />
                 <Homepage />
-                <main >
+                <main className="wrapper">
                       <InfoBox />
                       <ValuesSection bool={true} />
                       <Services />
@@ -106,6 +123,10 @@ function App() {
                 /> 
 
                 <About />
+            </Route>
+
+            <Route path="/tree">
+                <Tree />
             </Route>
 
         </ScrollProvider>        
