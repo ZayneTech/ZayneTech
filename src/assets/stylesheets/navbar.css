@@ -6,7 +6,7 @@
     transition: .2s;
 }
 .navbar {
-    display: flex;
+    display: flex;  
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -20,8 +20,24 @@
     position: relative;
     justify-content: space-between;
     align-items: center;
-    width: 18vw;
+    width: 20%;
     height: 100px;
+}
+
+.thelogo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.thelogo #logo {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+#logo-div2 #logo{
+    padding-left: 10px; 
 }
 
 .navbar a {
@@ -92,7 +108,7 @@ div .menu-toggle {
 }
 
 .navbar #nav-links2  {
-    width: 36vw;
+    width: 36%;
     height: 100%;
     display: flex;
     justify-content: space-between;

@@ -1,7 +1,6 @@
 import React, {useEffect}from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Navbar from './components/navbar';
-import Homepage from './components/homepage';
 import Footer from './components/footer';
 import About from "./components/about";
 import ServicesPage from './components/servicespage';
@@ -18,38 +17,16 @@ import Services from './components/services';
 import HomeProjectSection from './components/projects';
 import ScrollToTop from './components/scrolltotop';
 import Tree from './components/tree';
-import HomepageWrapper from './components/homepage2';
+import HomepageWrapper from './components/homepage';
 import HomepageAbout from './components/homepageabout';
-import Homepage2 from './pages/homepage';
+import AboutMain from './components/aboutmain';
+
 
 
 
 function App() {
 
-  window.onbeforeunload = () => {
-    window.scrollTo(0, 0);
-  }
-
-  return (
-    <div className="App">
-
-      <Router >
-        <ScrollToTop />
-        <ScrollProvider>
-
-          <Route exact path="/zaynetech">
-              <Navbar 
-                color={whiteLogo}
-                colorTwo={darkLogoBlue}
-                mode={true} 
-                name = {true}
-              />
-
-              <HomepageWrapper />
-              <Footer />
-          </Route>
-          
-            <Route exact path='/' className="main">
+  /**<Route exact path='/' className="main">
                 <Navbar 
                     color={whiteLogo}
                     colorTwo={darkLogoBlue}
@@ -64,7 +41,31 @@ function App() {
                       <HomeProjectSection />
                 </main>
                  <Footer />
-            </Route>
+            </Route> 
+  */
+
+  window.onbeforeunload = () => {
+    window.scrollTo(0, 0);
+  }
+
+  return (
+    <div className="App">
+
+      <Router >
+        <ScrollToTop />
+        <ScrollProvider>
+
+          <Route exact path="/" >
+              <Navbar 
+                color={whiteLogo}
+                colorTwo={darkLogoBlue}
+                mode={true} 
+                name = {true}
+              />
+
+              <HomepageWrapper />
+              <Footer />
+          </Route>
 
             <Route exact path="/services">
               <Navbar color={darkLogoBlue}

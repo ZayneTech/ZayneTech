@@ -6,6 +6,14 @@ import wave from '../assets/svgs/Wave 3.svg'
 
 
 const HomepageHero = () => {
+
+    const changeHeroText = () => {
+        const heroText = document.querySelectorAll('.hero-text');
+
+        heroText[0].classList.toggle('active-hero-text');
+        heroText[1].classList.toggle('active-hero-text');
+    }
+
     return(
         <div id="homepage-img-div">
                     <div id="homepage-hero-img">
@@ -19,8 +27,8 @@ const HomepageHero = () => {
                                             <div className="hero-text active-hero-text">
                                                 <div className="hero-header">
                                                     <p>Our mission</p>
-                                                    <img src={arrow}/>
-                                                    <img src={arrow} id="header-arrow-2"/>
+                                                    <img src={arrow} onClick={() => changeHeroText()}/>
+                                                    <img src={arrow} id="header-arrow-2" onClick={() => changeHeroText()}/>
                                                 </div>
                                                 <h1>Websites designed  to grow your business.</h1>
                                                 <Link to="/projects"><button> Our Projects </button></Link>
@@ -28,9 +36,9 @@ const HomepageHero = () => {
 
                                             <div className="hero-text">
                                                 <div className="hero-header">
-                                                    <p>Our Mission</p>
-                                                    <img src={arrow}/>
-                                                    <img src={arrow} id="header-arrow-2"/>
+                                                    <p>Our services</p>
+                                                    <img src={arrow} onClick={() => changeHeroText()}/>
+                                                    <img src={arrow} id="header-arrow-2" onClick={() => changeHeroText()}/>
                                                 </div>
                                                 <h1>Websites designed  to grow your business.</h1>
                                                 <Link to="/services"><button> Our Services </button> </Link>

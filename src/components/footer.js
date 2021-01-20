@@ -52,7 +52,9 @@ const Footer = () => {
             <div id="company-footer">
                 <h3>  ZayneTech 2020</h3>
                 <div id="footer-contacts">
-                  <a href="mailto: zaynetechnologies@gmail.com">  <Mail color="black" /> </a>
+                    <a href="mailto: zaynetechnologies@gmail.com">  
+                        <Mail color="black"/> 
+                    </a>
                     <Instagram color="black"/>
                     <Linkdin color="black"/>
                 </div>

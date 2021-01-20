@@ -10,6 +10,7 @@ import linkdin from '../assets/svgs/linkdin.svg';
 export const Mail = (props) => {
 
     const [color, setColor] = useState(props.color);
+
     return (
         <svg xmlns="http://www.w3.org/2000/svg"  width="58.868" height="50.151" viewBox="0 0 58.868 50.151">
         <defs>
@@ -21,7 +22,7 @@ export const Mail = (props) => {
             <feComposite in="SourceGraphic"/>
             </filter>
         </defs>
-        <g id="Closed_Mail" data-name="Closed Mail" transform="translate(14 9)">
+        <g id="Closed_Mail" data-name="Closed Mail" transform="translate(14 9)" >
             <g id="Layer_1" data-name="Layer 1">
             <g transform="matrix(1, 0, 0, 1, -14, -9)" filter="url(#Path_40)">
                 <path id="Path_40-2" data-name="Path 40" d="M34.579,2.817A4.359,4.359,0,0,0,30.51,0H4.358a4.359,4.359,0,0,0-4.1,2.9A4.053,4.053,0,0,0,0,4.359V21.793A4.359,4.359,0,0,0,2.724,25.83a4.277,4.277,0,0,0,1.634.321H30.51a3.988,3.988,0,0,0,1.553-.305,4.271,4.271,0,0,0,2.261-1.934,4.359,4.359,0,0,0,.545-2.119V4.359a4.282,4.282,0,0,0-.289-1.542ZM2.9,4.359A1.46,1.46,0,0,1,4.358,2.9H30.51a1.46,1.46,0,0,1,1.455,1.455v.278L20.381,13.353l-2.4,1.858-.545.409-.545-.425-2.43-1.814L2.9,4.691Zm0,17.434V8.325l9.142,6.87L2.936,22.038A1.09,1.09,0,0,1,2.9,21.793Zm3.269,1.455,8.3-6.233,2.092,1.58a1.438,1.438,0,0,0,1.743,0l2.076-1.569,8.238,6.222Zm25.792-1.455a1.09,1.09,0,0,1-.044.305l-9.126-6.9,9.169-6.93Z" transform="translate(14 9)" fill={color}/>

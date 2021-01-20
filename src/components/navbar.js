@@ -54,14 +54,16 @@ const Navbar = (props) => {
             <div className="wrapper" id="navbar-wrapper">
             <nav className="navbar page-content">
                 <Link className="logo-div" to="/">
-                    <Icon  
-                        base={logoColor.base}
-                        primary={logoColor.primary}
-                        id="logo"
-                    />
+                    <div className="thelogo" style={{display: 'flex'}}>
+                        <Icon  
+                            base={logoColor.base}
+                            primary={logoColor.primary}
+                            id="logo"
+                        />
 
-                    <h1 style={{color: brandName}}>ZayneTech</h1>
-                
+                        <h1 style={{color: brandName}}>ZayneTech</h1>
+                    </div>
+                  
                     <div className="menu-toggle" id="mobile-menu">
                         <span className="bar"></span>
                         <span className="bar"></span>
@@ -89,12 +91,12 @@ const Navbar = (props) => {
         return (
             <div className="wrapper active" id="navbar-wrapper">
             <nav className="navbar page-content" id="navbar">
-                <div className="logo-div">
+                <div className="logo-div" id="logo-div2">
                 <Link  to="/">
                     <Icon   
                         base={logoColorTwo.base}
                         primary={logoColorTwo.primary}
-                         id="logo"
+                         id="logo-active"
                     />
                 </Link> 
 
