@@ -14,38 +14,6 @@ const ValuesSection = (props) => {
 
     const [aboutDisplay, setAboutDisplay] = useState(props.homepage);
 
-    /* <div className="wrapper">
-            <section className="page-content" id="core-values-section">
-                <h1>Our core values</h1> <br />
-                <h2>enable quality websites</h2>
-
-                
-                    <Link to="/about" id="core-values-about-text">
-                        <h3>About Us</h3> 
-                        <img src={greenarrow} />
-                    </Link>
-                
-
-                <Icon  
-                    base={darkLogoGreen.base}
-                    primary={darkLogoGreen.primary}
-                />
-
-                <img src={wave} id="core-values-wave"/> 
-               
-            </section>
-
-<div id="tree-div">
-  <img src={littletree} id="little-tree"/>
-  <img src={bigtree} id="big-tree"/>
-</div>
-
-</div> */
-
-{/*}  <div id="little-tree">
-  <Tree />
-  </div>*/}
-
         return (
             
             <section className="page-content" id="corevalues-about-section" >

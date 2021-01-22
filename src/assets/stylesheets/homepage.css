@@ -118,6 +118,48 @@ header #homepage-hero-div {
     left: -2.5%;
 }
 
+/* Homepage Infobox */
+#infobox {
+  position: absolute;
+  top: 87.5vh;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 19%;
+  max-height: 400px;
+  width: 50%;
+  max-width: 1440px;
+  background-color: #3D4B5E;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 25%);
+  z-index: 2;
+}
+
+.info-box-message:nth-child(1) img {
+  width: 60%;
+}
+.info-box-message:nth-child(2) img{
+  width: 40%;
+}
+.info-box-message:nth-child(3) img{
+  width: 39%;
+} 
+
+.info-box-message {
+  position: relative;
+  top: 20px;
+}
+
+#infobox p {
+  font-size: 22px;
+  color: white;
+  position: relative;
+  bottom: 15px;
+}
+
 
 /* Homepage Main */
 

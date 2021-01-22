@@ -1,120 +1,6 @@
-/* HomePage Info Box */
-
-#infobox {
-    position: absolute;
-    top: 87.5vh;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 19%;
-    max-height: 400px;
-    width: 50%;
-    max-width: 1440px;
-    background-color: #3D4B5E;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 25%);
-    z-index: 2;
-}
-
-.info-box-message:nth-child(1) img {
-    width: 60%;
-}
-.info-box-message:nth-child(2) img{
-    width: 40%;
-}
-.info-box-message:nth-child(3) img{
-    width: 39%;
-}
-
-.info-box-message {
-    position: relative;
-    top: 20px;
-}
-
-#infobox p {
-    font-size: 22px;
-    color: white;
-    position: relative;
-    bottom: 15px;
-}
-
 /* Homepage Info Section */
 
-#services-section {
-    width: 100%;
-    min-height: 100vh;
-    background-color: #3D4B5E;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    top: -15vh;
-    left: 0vw;
-    z-index: 0;
-}
 
-#services-header {
-    color: white;
-    font-size: 45px;
-    font-weight: 500;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 5vh;
-}
-
-#services-cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 75%;
-}
-
-#services-cards h2 {
-    color: white;
-    text-align: center;
-}
-
-#services-cards p {
-    color: white;
-    font-size: 16px;
-}
-
-#service-card-1, #service-card-2, #service-card-3 {
-    background-color: rgba(255, 255, 255, 20%);
-    min-width: 25%;
-    height: 57vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
-} 
-
-#designcomputer {
-    width: 66%;
-    height: 29.25%;
-}
-
-#developer {
-    width: 61%;
-    height: 40%
-}
-
-#server {
-    width: 25%;
-    height: 30%
-}
-
-.service-arrow {
-    position: relative;
-    bottom: 7.5%;
-    left: 20%; 
-}
 
 /*     Services Page      */
 
@@ -254,17 +140,7 @@
     margin-left: 1.5vw;
 }
 
-#lightblue {
-    background-color: #E7F3F5;
-}
 
-#darkblue {
-    background-color: #D2D4DC;
-}
-
-#green {
-    background-color: #F1FAF5;
-}
 
 
 /*Services classes */

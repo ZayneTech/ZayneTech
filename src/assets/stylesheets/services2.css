@@ -1,0 +1,163 @@
+/* Services Header */
+
+#services-header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+#header-content {
+    width: 85%;
+    height: 70vh;
+    max-height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#services-header-text {
+    width: 40%;
+}
+
+#services-header-text h1{
+    font-size: 36px;
+    color: #1985A1;
+} 
+
+#services-header-text #header-p{
+    font-size: 22px;
+    color: black;
+    width: 85%;
+}
+
+#services-header-img {
+    width: 45%;
+    position: relative;
+    top: 25px
+}
+
+#header-links {
+    width: 100%;
+    height: 25vh;
+    max-height: 200px;
+    background-color: #3D4B5E;
+}
+
+#header-links-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-link {
+    color: white;
+    width: 25%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-link img{
+   height: 60px;
+   max-height: 60px;
+}
+
+.header-link h2 {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+/* Services Main */
+
+
+#services-main-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.services {
+    width: 100%;
+    height: 500px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services img {
+   width: 525px;
+   max-height: 525px;
+}
+
+.services-info {
+    width: 35%;
+    height: 67.5%;
+}
+
+.services h1 {
+    margin-bottom: 0;
+    font-size: 36px;
+    color: #3D4B5E;
+}
+
+.services h2 {
+    font-size: 28px;
+    color: #3D4B5E
+}
+
+.services button {
+    width: 45%;
+    color: #3D4B5E;
+    margin: 20px;
+    margin-left: 0;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px;
+    border: none;
+}
+
+.services-info-link {
+    width: 94%;
+    height: 25px;
+    font-size: 18px;
+}
+
+.services-info-link a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.services-info-link img {
+    width: unset;
+    height: 18px;
+    margin-left: 20px;
+}
+
+#lightblue {
+    background-color: #E7F3F5;
+}
+
+#darkblue {
+    background-color: #D2D4DC;
+}
+
+#green {
+    background-color: #F1FAF5;
+}
