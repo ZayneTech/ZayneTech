@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ZayneTech/static/css/main.48995959.chunk.css",
-    "main.js": "/ZayneTech/static/js/main.7eb7ad8b.chunk.js",
-    "main.js.map": "/ZayneTech/static/js/main.7eb7ad8b.chunk.js.map",
+    "main.css": "/ZayneTech/static/css/main.c0e3b00d.chunk.css",
+    "main.js": "/ZayneTech/static/js/main.483ea8c6.chunk.js",
+    "main.js.map": "/ZayneTech/static/js/main.483ea8c6.chunk.js.map",
     "runtime-main.js": "/ZayneTech/static/js/runtime-main.af4c3f83.js",
     "runtime-main.js.map": "/ZayneTech/static/js/runtime-main.af4c3f83.js.map",
     "static/js/2.233462aa.chunk.js": "/ZayneTech/static/js/2.233462aa.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.a8318008.chunk.js": "/ZayneTech/static/js/3.a8318008.chunk.js",
     "static/js/3.a8318008.chunk.js.map": "/ZayneTech/static/js/3.a8318008.chunk.js.map",
     "index.html": "/ZayneTech/index.html",
-    "static/css/main.48995959.chunk.css.map": "/ZayneTech/static/css/main.48995959.chunk.css.map",
+    "static/css/main.c0e3b00d.chunk.css.map": "/ZayneTech/static/css/main.c0e3b00d.chunk.css.map",
     "static/js/2.233462aa.chunk.js.LICENSE.txt": "/ZayneTech/static/js/2.233462aa.chunk.js.LICENSE.txt",
     "static/media/Adobexd.cfc15937.svg": "/ZayneTech/static/media/Adobexd.cfc15937.svg",
     "static/media/Arrow 1.cbeff278.svg": "/ZayneTech/static/media/Arrow 1.cbeff278.svg",
@@ -19,14 +19,11 @@
     "static/media/Closed Mail.84754515.svg": "/ZayneTech/static/media/Closed Mail.84754515.svg",
     "static/media/Colormind logo.9f8bb1c3.svg": "/ZayneTech/static/media/Colormind logo.9f8bb1c3.svg",
     "static/media/Developer.5fe38094.svg": "/ZayneTech/static/media/Developer.5fe38094.svg",
-    "static/media/Footer Comp.48c50263.svg": "/ZayneTech/static/media/Footer Comp.48c50263.svg",
     "static/media/Frontend planning.1613ce74.svg": "/ZayneTech/static/media/Frontend planning.1613ce74.svg",
     "static/media/Hosting Support.190275db.svg": "/ZayneTech/static/media/Hosting Support.190275db.svg",
     "static/media/homepage.css": "/ZayneTech/static/media/Keyboard and notes.55f964ed.jpg",
     "static/media/Little Tree.9cdc2310.svg": "/ZayneTech/static/media/Little Tree.9cdc2310.svg",
-    "static/media/Main Comp.60915ade.svg": "/ZayneTech/static/media/Main Comp.60915ade.svg",
     "static/media/Map.65d741c8.svg": "/ZayneTech/static/media/Map.65d741c8.svg",
-    "static/media/Nav Comp.2c5750ad.svg": "/ZayneTech/static/media/Nav Comp.2c5750ad.svg",
     "static/media/ReactLogo.f31b316e.svg": "/ZayneTech/static/media/ReactLogo.f31b316e.svg",
     "static/media/Services.609bd33f.svg": "/ZayneTech/static/media/Services.609bd33f.svg",
     "static/media/Thinking.62f53b9d.svg": "/ZayneTech/static/media/Thinking.62f53b9d.svg",
@@ -57,7 +54,7 @@
   "entrypoints": [
     "static/js/runtime-main.af4c3f83.js",
     "static/js/2.233462aa.chunk.js",
-    "static/css/main.48995959.chunk.css",
-    "static/js/main.7eb7ad8b.chunk.js"
+    "static/css/main.c0e3b00d.chunk.css",
+    "static/js/main.483ea8c6.chunk.js"
   ]
 }
