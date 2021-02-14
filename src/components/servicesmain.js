@@ -46,6 +46,7 @@ const ServicesMain = () => {
                         <img src={backend}/>
                     </div>
                 </section>
+
                 <section className="services">
                     <div>
                         <img src={frontend}/>

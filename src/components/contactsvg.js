@@ -1,9 +1,4 @@
 import React, { useState } from 'react';
-import mail from '../assets/svgs/Closed Mail.svg';
-import instgram from '../assets/svgs/instagram.svg';
-import linkdin from '../assets/svgs/linkdin.svg';
-
-
 
 
 
@@ -17,7 +12,7 @@ export const Mail = (props) => {
             <filter id="Path_40" x="0" y="0" width="58.868" height="50.151" filterUnits="userSpaceOnUse">
             <feOffset dx="-2" dy="3" input="SourceAlpha"/>
             <feGaussianBlur stdDeviation="4" result="blur"/>
-            <feFlood flood-color="#fff" flood-opacity="0.251"/>
+            <feFlood floodColor="#fff" floodOpacity="0.251"/>
             <feComposite operator="in" in2="blur"/>
             <feComposite in="SourceGraphic"/>
             </filter>

@@ -61,7 +61,7 @@
     left: 4%;
 }
 
-#about-column-2 {
+#about-column-2 { 
     margin-bottom: 10%;
 }
 
@@ -74,7 +74,7 @@
 }
 
 #about-column-2 #icontext-p{
-    width: 80%;
+    width: 90%;
     font-size: 22px;
     position: relative;
     left: 0;
@@ -92,7 +92,7 @@
     background-color: #3D4B5E;
 }
 
-#about-column-2 .values-box {
+#about-column-2 .values-box { 
     width: 75%;
     min-height: 150px;
     height: 175px;

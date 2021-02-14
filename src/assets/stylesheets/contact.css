@@ -31,6 +31,10 @@
 
 
 @media screen and (max-width: 768px) {
+
+    #contact-box-wrapper {
+        height: 100px;
+    }
     #contact-box {
         height: 100px;
     }

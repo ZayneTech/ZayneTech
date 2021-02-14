@@ -5,15 +5,14 @@ import Footer from './components/footer';
 import About from "./components/about";
 import { ScrollProvider } from "./components/globalscroll";
 import {whiteLogo, darkLogoBlue, darkLogoGreen } from "./assets/data/logoColor";
+import {frontend, backend, design} from "./assets/data/servicesData";
 import './App.css';
-import Frontend from './components/frontend';
 import ContactBox from './components/contact-box';
-import Backend from './components/backend';
-import Design from './components/design';
 import ScrollToTop from './components/scrolltotop';
 import Tree from './components/tree';
 import HomepageWrapper from './components/homepage';
 import ServicesWrapper from './components/services';
+import TheService from './components/service';
 
 
 
@@ -59,7 +58,7 @@ function App() {
                       mode={false} 
                       name={false}
                   /> 
-              <Frontend />
+               <TheService service={frontend}/>
               <ContactBox />
               <Footer />
 
@@ -72,7 +71,7 @@ function App() {
                     name={false}
                 /> 
 
-                <Backend />
+                <TheService service={backend}/>
                 <ContactBox />
                 <Footer />
 
@@ -85,7 +84,7 @@ function App() {
                     name={false}
                 /> 
 
-                <Design />
+                <TheService service={design}/>
                 <ContactBox />
                 <Footer />
 

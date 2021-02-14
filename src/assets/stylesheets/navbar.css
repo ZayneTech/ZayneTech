@@ -45,15 +45,13 @@
 }
 
 
-
-
 .logo-div h1 {
     font-family: "Shopify Sans Web";
     font-size: 32px;
     color: rgba( 255, 255, 255, .9);
-    letter-spacing: .45vw;
+    letter-spacing: 7px;
     font-weight: 400;
-    text-shadow: 0px 3px 15px rgba( 0, 0, 0, .20);
+    text-shadow: 0px 3px 15px rgba( 0, 0, 0, .15);
     text-decoration: none;
 }
 
