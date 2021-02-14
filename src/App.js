@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
 
-      <Router basename="/">
+      <Router basename="/ZayneTech">
         <ScrollToTop />
         <ScrollProvider>
 
