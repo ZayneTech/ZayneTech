@@ -16,7 +16,7 @@ const ServicesMain = () => {
                     </div>
                     <div className="services-info">
                         <h1>Web Design</h1>
-                        <h2>Lorem Ipsum</h2>
+                        <h2>Designed to Perfection</h2>
                         <button id="lightblue"> User Experience</button>
                         <button id="lightblue"> User Interface </button>
                         <div className="services-info-link">
@@ -31,9 +31,9 @@ const ServicesMain = () => {
                 <section className="services" id="second-service">
                     <div className="services-info">
                         <h1>Backend Development</h1>
-                        <h2>More lorem Ipsum</h2>
-                        <button id="darkblue"> User Experience</button>
-                        <button id="darkblue"> User Interface </button>
+                        <h2>Powerful and Secure</h2>
+                        <button id="darkblue"> API Development</button>
+                        <button id="darkblue"> Databases</button>
                         <div className="services-info-link">
                             <Link to="/services/backend">
                                 Read More 
@@ -53,9 +53,9 @@ const ServicesMain = () => {
                     </div>
                     <div className="services-info">
                         <h1>Frontend Development</h1>
-                        <h2>Lorem Ipsum Text</h2>
-                        <button id="green"> User Experience</button>
-                        <button id="green"> User Interface </button>
+                        <h2>Beautiful interface</h2>
+                        <button id="green"> React Development</button>
+                        <button id="green"> Functional</button>
                         <div className="services-info-link">
                             <Link to="/services/frontend">
                                 Read More 

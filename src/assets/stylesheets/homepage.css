@@ -103,6 +103,7 @@ header #homepage-hero-div {
     justify-content: space-between;
     align-items: center;
     height: 30.75%;
+    margin-right: 10px;
 }
 
 #homepage-wave {
@@ -307,7 +308,7 @@ header #homepage-hero-div {
 
   .service-box-text {
       width: 80%;
-      text-align: center;
+      text-align: left;
   }
 
   .service-box-link {
@@ -421,7 +422,7 @@ header #homepage-hero-div {
 }
 
 #project-column-2 {
-    align-items: center;
+  align-items: center;
 }
 
 .column-2-box {
@@ -430,7 +431,11 @@ header #homepage-hero-div {
     height: 40%;
 }
 
-
+@media (max-width: 1200px) and (min-Width: 768px ) {
+  #homepage-hero-img {
+    height: 110%;
+  }
+}
 
 @media screen and (max-width: 768px) {
     #homepage-img-div {
@@ -691,3 +696,4 @@ header #homepage-hero-div {
 }
 
 }
+

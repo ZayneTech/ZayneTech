@@ -14,8 +14,7 @@ const ServicesHeader = () =>{
                 <div id="services-header-text">
                         <h1> Services </h1>
                         <div id="header-p">
-                            <p> Lorem Ipsum Text to take up a line
-                                or two. Or maybe a whole three.
+                            <p> We take care of every part of the development process.
                             </p>
                         </div>
                 </div>

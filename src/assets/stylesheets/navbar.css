@@ -129,7 +129,6 @@ div .menu-toggle {
     color: white;
 }
 
-
 @media screen and (max-width: 768px) {
 
     .navbar {
@@ -208,7 +207,3 @@ div .menu-toggle {
     }
      
 }
-
-@media (min-width: 1281px) {
-    
-    }

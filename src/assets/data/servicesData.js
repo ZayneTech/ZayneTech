@@ -24,7 +24,7 @@ export const frontend = {
     theme: 'blue',
     /* Header text */
     title: 'Frontend Development',
-    subtitle: 'Lorem Ipsum text about the importance of frontend developement.',
+    subtitle: 'Engaging websites that are fun to navigate',
     paragraph1: {
         title: ['React', 'Development'], 
         a: 'Lorem Ipsum text about the importance of frontend development. Blah blah take up more space make it long and interest- ing to engage your audience.'
@@ -76,26 +76,26 @@ export const design = {
     theme: 'pink',
     /* Header text */
     title: 'UI/UX Design',
-    subtitle: 'Lorem Ipsum text about the importance of frontend developement.',
+    subtitle: 'Designed specifically for you to help you reach your goals',
     /*Intro paragraph */
     paragraph1: {
         title: ['UI/UX', 'Design'], 
-        a: 'Lorem Ipsum text about the importance of frontend development. Blah blah take up more space make it long and interest- ing to engage your audience.'
+        a: `A great User Interface(UI) and User Experience(UX) on your website can be extrmeley important for the success of your business.`
     },
     paragraph2: {
         title: ['Why', 'Adobe?'],
-        a: 'Lorem Ipsum text about the importance of frontend development. Blah blah take up more space make it long and interesting to engage your audience.',
-        b: 'Lorem Ipsum text about the importance of frontend development. Blah blah take up more space make it long and interesting to engage your audience.'
+        a: 'We choose to use AdobeXD for our designs because their platform is one of the best. With the power of AdobeXD our designs are only limited to what we can imagine.',
+        b: 'They are constantly improving their software with updates, which allows us developers to push the boundaries of our designs in ways never seen before.'
     },
     paragraph3: {
         title: ['Other', 'Design', 'Tools'],
-        a: 'Lorem Ipsum text about the importance of frontend development. Blah blah take up more space make it long and interesting to engage your audience.'
+        a: `If you don't have pictures or a coolor scheme to provide we have you covered.We use great tools such as unsplash and colormind to provide quality pictures and color schemes.`
     },
     paragraph4: {
         title: ['Color','Scheme'],
-        a: 'Lorem Ipsum text about the importance of frontend development. Blah blah take up more space make it long and interesting to engage your audience.',
-        b: 'Lorem Ipsum text about the importance of frontend development. Blah blah take up more space make it long and interesting to engage your audience.',
-        c: 'Lorem Ipsum text about the importance of frontend development. Blah blah take up more space make it long and interesting to engage your audience.'
+        a:  `The color scheme of your website can say a lot about your company's personality. Without the right fit you can give off the wrong impressions to your audience.`,
+        b: 'The first thing people notice when they visit a site for the first time is the color. A well defined color scheme with the right contrasts can draw people into your website faster than you think. ',
+        c: `We make it our job to dedicate the time to learn about your business, and find the right color scheme for you.`
     },
     images: {header: wireframe, secondary: connected, logo: adobe, toola: unsplash, toolb: colormind}
 }

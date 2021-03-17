@@ -37,11 +37,7 @@ const Footer = () => {
 
                 <div>
                     <h3> Projects </h3>
-                    <p>Cabmor Interiors</p>
-                    <p>The Batman Project</p>
-                    <p>Jay Foundation</p>
-                    <p>EML Foundation</p>
-                    <p>Justice League Project</p>
+                    <Link to="/contact"> <p><strong> Be Our First! </strong></p> </Link>
                 </div>
             </div>
 

@@ -4,6 +4,7 @@ import Navbar from './components/navbar';
 import Footer from './components/footer';
 import About from "./components/about";
 import { ScrollProvider } from "./components/globalscroll";
+import { WindowProvider } from "./components/window-context";
 import {whiteLogo, darkLogoBlue, darkLogoGreen } from "./assets/data/logoColor";
 import {frontend, backend, design} from "./assets/data/servicesData";
 import './App.css';
@@ -29,6 +30,7 @@ function App() {
       <Router basename="/ZayneTech">
         <ScrollToTop />
         <ScrollProvider>
+        <WindowProvider>
 
           <Route exact path="/" >
               <Navbar 
@@ -103,7 +105,7 @@ function App() {
             <Route path="/tree">
                 <Tree />
             </Route>
-
+            </WindowProvider>
         </ScrollProvider>        
       </Router>
 

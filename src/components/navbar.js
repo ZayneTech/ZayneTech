@@ -4,6 +4,7 @@ import "../assets/stylesheets/navbar.css";
 /*import ZayneTechLight from "../assets/svgs/ZayneTech Logo.svg";
 import ZayneTechDark from "../assets/svgs/ZayneTech Dark Logo.svg";*/
 import {ScrollContext} from "../components/globalscroll";
+import {WindowContext} from "../components/window-context";
 import Icon from "./icon";
 
 
@@ -11,6 +12,7 @@ const Navbar = (props) => {
     /* track scroll for navbar */
     const scrollPos = useContext(ScrollContext);
     const [prevScrollPos, setPrevScrollPos] = useState(scrollPos); 
+    const [windowSize, setWindowSize] = useContext(WindowContext);
 
     /* color scheme for navbar */
     const [font, setFont] = useState('');
@@ -36,6 +38,10 @@ const Navbar = (props) => {
             setPrevScrollPos(scrollPos)
         } 
     }, [scrollPos]) 
+
+    useEffect(() => {
+        
+    }, [windowSize])
 
 
     /* Toggle mobile Nav Menu*/

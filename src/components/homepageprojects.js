@@ -7,11 +7,11 @@ const homepageProjects = () => {
             <section className="page-content" id="homepage-projects-section">
                 <div className="homepage-project-columns" id="project-column-1">
                     <div>
-                        <h1 id="project-column-header">We personalize every <span>Website </span> 
+                        <h1 id="project-column-header">We personalize every <span style={{textShadow: '0 0 8px rgba(0, 0, 0, .25)'}}>Website </span> 
                         to your needs.
                         </h1>
-                        <h2 id="project-column-subheader">Lorem ipsum dolor sit amet, consectetur a<span>dipiscing  
-                            elit. </span>  Aliquam euismod quis ligula maximus bl<span>andit. </span>
+                        <h2 id="project-column-subheader">Customized for your growth. Your website w<span style={{textShadow: '0 0 8px rgba(0, 0, 0, .25)'}}>ill help you</span> engage with  
+                            your customers by expanding <span style={{textShadow: '0 0 8px rgba(0, 0, 0, .25)'}}>your digital</span> presence.
                         </h2>
                     </div>
 
@@ -30,13 +30,15 @@ const homepageProjects = () => {
                     <img src={thinker}/> 
                 </div>
                 <div className="homepage-project-columns" id="project-column-2">
-                    <div className="column-2-box">
+
+                    <h1 style={{color: 'white', fontSize: 40, textAlign: 'center'}}>Be Our First Project!</h1>
+                   {/* <div className="column-2-box">
 
                     </div>
 
                     <div className="column-2-box">
                                 
-                    </div>
+                </div> */}
                 </div>
             </section>
         </div>
